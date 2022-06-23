@@ -14,7 +14,7 @@ def go_to_companyname_homepage():
 def find_registration_button_on_login_page():
     pass
 
-i = (open_browser, go_to_companyname_homepage, find_registration_button_on_login_page)
-for g in i:
+functions = (open_browser, go_to_companyname_homepage, find_registration_button_on_login_page)
+for g in functions:
     string_name = g.__name__
     print(string_name)
